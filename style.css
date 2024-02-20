@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.85) 30%, rgba(10, 12, 16, 0.55) 50%, rgba(10, 12, 16, 0.85) 90%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.fundo-lu {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+video {
+    min-width: 25%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -3;
+}
+
+
+html {
+    height: 100vh;
+    font-size: 14px;
+}
+
+body {
+    background-color: #282828;
+    height: 100%;
+}
+
+
+
+.container {
+    height: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.degrade {
+    background: linear-gradient(to right, #ff0099, #ff0054);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #5e5e5e;
+    font-weight: 300;
+}
+
+.arroba {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 300;
+}
+
+section.botoes-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a.link button {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #fff;
+    transition: 1s;
+}
+
+a.link i {
+    font-size: 1.5em;
+}
+
+a.link button:hover, footer a.btn-footer:hover {
+    transform: scale(1.05);
+}
+
+.vendedoras {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+iframe {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer a.btn-footer {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 60px;
+    border-radius: 50%;
+    transition: .2s;
+}
