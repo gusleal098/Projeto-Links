@@ -5,35 +5,6 @@
     font-family: "Outfit", sans-serif;
 }
 
-.mascara {
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(109deg, rgba(10, 12, 16, 0.85) 30%, rgba(10, 12, 16, 0.55) 50%, rgba(10, 12, 16, 0.85) 90%);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-.fundo-lu {
-    min-width: 100%;
-    min-height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -2;
-}
-
-video {
-    min-width: 25%;
-    min-height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -3;
-}
-
-
 html {
     height: 100vh;
     font-size: 14px;
@@ -63,7 +34,7 @@ a {
 }
 
 .degrade {
-    background: linear-gradient(to right, #ff0099, #ff0054);
+    background: linear-gradient(to right, #05cf71, #05812e); 
 }
 
 header {
@@ -79,14 +50,7 @@ header img {
 header h1 {
     font-size: 2em;
     margin-bottom: 10px;
-    color: #5e5e5e;
-    font-weight: 300;
-}
-
-.arroba {
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: #fff;
+    color: #05812e;
     font-weight: 300;
 }
 
@@ -116,18 +80,6 @@ a.link i {
 
 a.link button:hover, footer a.btn-footer:hover {
     transform: scale(1.05);
-}
-
-.vendedoras {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-iframe {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 20px;
 }
 
 footer {
